@@ -77,6 +77,10 @@ const whitelist: WhitelistConfig[] = [
         namespace: 'Microsoft.DataFactory',
     },
     {
+        basePath: 'datalake-analytics/resource-manager',
+        namespace: 'Microsoft.DataLakeAnalytics',
+    },
+    {
         basePath: 'datashare/resource-manager',
         namespace: 'Microsoft.DataShare',
     },
@@ -95,6 +99,10 @@ const whitelist: WhitelistConfig[] = [
     {
         basePath: 'devtestlabs/resource-manager',
         namespace: 'Microsoft.DevTestLab',
+    },
+    { 
+        basePath: 'redis/resource-manager',
+        namespace: 'Microsoft.Cache',
     },
     {
         basePath: 'hdinsight/resource-manager',
@@ -155,6 +163,10 @@ const whitelist: WhitelistConfig[] = [
         namespace: 'Microsoft.DBforMySQL',
     },
     {
+        basePath: 'netapp/resource-manager',
+        namespace: 'Microsoft.NetApp',
+    },
+    {
         basePath: 'policyinsights/resource-manager',
         namespace: 'Microsoft.PolicyInsights',
     },
@@ -201,6 +213,10 @@ const whitelist: WhitelistConfig[] = [
     {
         basePath: 'vmwarecloudsimple/resource-manager',
         namespace: 'Microsoft.VMwareCloudSimple',
+    },
+    { 
+        basePath: 'sql/resource-manager',
+        namespace: 'Microsoft.Sql',
     },
     {
         basePath: 'timeseriesinsights/resource-manager',
